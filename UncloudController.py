@@ -8,7 +8,7 @@
 
 import objc
 from Foundation import *
-from gmail2amail import Account
+from BackgroundTasks import LoginTask
 
 class UncloudController(NSObject):
     loginSheet = objc.IBOutlet()
@@ -25,9 +25,12 @@ class UncloudController(NSObject):
         app = NSApplication.sharedApplication()
         app.endSheet_(self.loginSheet)
         self.loginSheet.orderOut_(sender)
-        NSLog(u"%@:%@", self.accountEmail, self.accountPassword)
-        gmailAcc = Account(self.accountEmail, self.accountPassword)
-        NSLog(u"%@", gmailAcc.get_labels())
+        NSLog(u"Creating task to fetch labels for %@:%@", self.accountEmail, self.accountPassword)
+        loginTask = LoginTask.alloc().init()
+        loginTask.initTask(self.accountEmail, self.accountPassword)
+        loginTask.addObserver_forKeyPath_options_context_(self, u"isFinished", NSKeyValueObservingOptionNew, None)
+        myQueue = app.delegate().opQ
+        myQueue.addOperation_(loginTask)
 
     def displayLoginSheet(self):
         NSLog(u"Displaying login sheet...")
@@ -35,3 +38,8 @@ class UncloudController(NSObject):
         self.accountPassword = None
         app = NSApplication.sharedApplication()
         app.beginSheet_modalForWindow_modalDelegate_didEndSelector_contextInfo_(self.loginSheet, app.mainWindow(), None, None, None)
+
+    def observeValueForKeyPath_ofObject_change_context_(self, keyPath, object, change, context):
+        if(keyPath.isEqual_(u"isFinished") and change.objectForKey_(NSKeyValueChangeNewKey)):
+            NSLog("%@", object.get_labels())
+            #object.release()

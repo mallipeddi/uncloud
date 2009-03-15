@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		687E3EC80F6C022A0000DCB8 /* gmail2amail.py in Resources */ = {isa = PBXBuildFile; fileRef = 687E3EC70F6C022A0000DCB8 /* gmail2amail.py */; };
 		687E3EEB0F6C03C90000DCB8 /* UncloudController.py in Resources */ = {isa = PBXBuildFile; fileRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */; };
+		687E3F520F6CA3410000DCB8 /* BackgroundTasks.py in Resources */ = {isa = PBXBuildFile; fileRef = 687E3F510F6CA3410000DCB8 /* BackgroundTasks.py */; };
 		77631A270C06C501005415CB /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77631A260C06C501005415CB /* Python.framework */; };
 		77631A3F0C0748CF005415CB /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 77631A3E0C0748CF005415CB /* main.py */; };
 		7790198F0C07548A00326F66 /* UncloudAppDelegate.py in Resources */ = {isa = PBXBuildFile; fileRef = 7790198E0C07548A00326F66 /* UncloudAppDelegate.py */; };
@@ -28,6 +29,7 @@
 		32CA4F630368D1EE00C91783 /* Uncloud_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Uncloud_Prefix.pch; sourceTree = "<group>"; };
 		687E3EC70F6C022A0000DCB8 /* gmail2amail.py */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = text.script.python; path = gmail2amail.py; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
 		687E3EEA0F6C03C90000DCB8 /* UncloudController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = UncloudController.py; sourceTree = "<group>"; };
+		687E3F510F6CA3410000DCB8 /* BackgroundTasks.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = BackgroundTasks.py; sourceTree = "<group>"; };
 		77631A260C06C501005415CB /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = /System/Library/Frameworks/Python.framework; sourceTree = "<absolute>"; };
 		77631A3E0C0748CF005415CB /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
 		7790198E0C07548A00326F66 /* UncloudAppDelegate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = UncloudAppDelegate.py; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				7790198E0C07548A00326F66 /* UncloudAppDelegate.py */,
 				687E3EEA0F6C03C90000DCB8 /* UncloudController.py */,
+				687E3F510F6CA3410000DCB8 /* BackgroundTasks.py */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				77C8C1F90C07829500965286 /* MainMenu.xib in Resources */,
 				687E3EC80F6C022A0000DCB8 /* gmail2amail.py in Resources */,
 				687E3EEB0F6C03C90000DCB8 /* UncloudController.py in Resources */,
+				687E3F520F6CA3410000DCB8 /* BackgroundTasks.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

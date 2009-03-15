@@ -12,10 +12,15 @@ from AppKit import *
 
 class UncloudAppDelegate(NSObject):
     mainController = objc.IBOutlet()
+    opQ = objc.ivar(u"opQ")
     
     def applicationDidFinishLaunching_(self, sender):
         NSLog("Application did finish launching.")
+        self.opQ = NSOperationQueue.alloc().init()
 
     def applicationDidBecomeActive_(self, sender):
         NSLog("Application did become active.")
         self.mainController.displayLoginSheet()
+
+    def applicationWillTerminate_(self, sender):
+        self.opQ.release()
