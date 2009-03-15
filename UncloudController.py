@@ -23,6 +23,8 @@ class UncloudController(NSObject):
     loginStatusLabel = objc.IBOutlet()
     
     # backups
+    labels = objc.ivar(u"labels")
+    selectedLabel = objc.ivar(u"selectedLabel")
     backupsView = objc.IBOutlet()
     
     def displayLoginSheet(self):
@@ -58,7 +60,7 @@ class UncloudController(NSObject):
 
     @objc.IBAction
     def startBackup_(self, sender):
-        backupController = BC.alloc().initWith_(self.account, "SG Groups")
+        backupController = BC.alloc().initWith_(self.account, self.selectedLabel)
         self.backups.addObject_(backupController)
         self.backupsView.addSubview_(backupController.view())
 
@@ -73,6 +75,7 @@ class UncloudController(NSObject):
                 app = NSApplication.sharedApplication()
                 app.endSheet_(self.loginSheet)
                 self.loginSheet.orderOut_(self)
+                self.labels = self.account.labels
             else:
                 # login failed
                 self.loginStatusLabel.setTextColor_(NSColor.redColor())

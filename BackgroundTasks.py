@@ -17,25 +17,32 @@ class LoginTask(NSOperation):
         self.account = None
     
     def main(self):
-        NSLog("Executing main = %@, %@", self.accountEmail, self.accountPassword)
+        NSLog(u"Executing main = %@, %@", self.accountEmail, self.accountPassword)
         self.account = gmail2amail.Account(self.accountEmail, self.accountPassword)
-        NSLog("Fetched labels = %@", self.account.labels)
+        NSLog(u"Fetched labels = %@", self.account.labels)
     
     def get_account(self):
         return self.account
 
     def dealloc(self):
-        NSLog("dealloc on task invoked")
+        NSLog(u"dealloc on task invoked")
         super(LoginTask, self).dealloc()
 
 class BackupTask(NSOperation):
-    def initTask(self, gmailAccount, label_name):
-        self.label = gmailAccount.get_label(label_name)
-        self.mboxWriter = gmail2amail.MboxrdWriter(u"/Users/harish/Code/%s.mbox" % label_name)
+    totalEmails = objc.ivar(u"totalEmails")
+    fetchedEmails = objc.ivar(u"fetchedEmails")
+
+    def initTask(self, gmailAccount, label_name, destPath):
+        # convert NSString to python string before sending off to pure Python code
+        pyStr = label_name.UTF8String()
+        self.label = gmailAccount.get_label(pyStr)
+        self.mboxWriter = gmail2amail.MboxrdWriter(destPath)
     
     def main(self):
         NSLog(u"Fetching emails...")
         for email in self.label:
+            self.setValue_forKey_(self.label.total, u"totalEmails")
+            self.setValue_forKey_(self.label.fetched, u"fetchedEmails")
             self.mboxWriter.append(email)
         NSLog(u"Done fetching emails...")
         self.mboxWriter.close()

@@ -78,7 +78,6 @@ class Label(object):
             self._fetched += 1
             return m
         else:
-            self.close()
             raise StopIteration
 
     def _get_total(self):

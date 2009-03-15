@@ -9,6 +9,7 @@
 import objc
 from Foundation import *
 from AppKit import *
+import os
 
 class UncloudAppDelegate(NSObject):
     mainController = objc.IBOutlet()
@@ -24,3 +25,14 @@ class UncloudAppDelegate(NSObject):
 
     def applicationWillTerminate_(self, sender):
         self.opQ.release()
+
+    def applicationSupportFolder(self):
+        paths = NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory,NSUserDomainMask,True)
+        basePath = (len(paths) > 0 and paths[0]) or NSTemporaryDirectory()
+        fullPath = basePath.stringByAppendingPathComponent_("Uncloud")
+        if not os.path.exists(fullPath):
+            os.mkdir(fullPath)
+        return fullPath
+    
+    def pathForFilename(self,filename):
+        return self.applicationSupportFolder().stringByAppendingPathComponent_(filename)
