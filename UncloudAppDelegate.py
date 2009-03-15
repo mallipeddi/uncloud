@@ -17,10 +17,10 @@ class UncloudAppDelegate(NSObject):
     def applicationDidFinishLaunching_(self, sender):
         NSLog("Application did finish launching.")
         self.opQ = NSOperationQueue.alloc().init()
+        self.mainController.displayLoginSheet()
 
     def applicationDidBecomeActive_(self, sender):
         NSLog("Application did become active.")
-        self.mainController.displayLoginSheet()
 
     def applicationWillTerminate_(self, sender):
         self.opQ.release()
