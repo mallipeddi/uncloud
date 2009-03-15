@@ -12,6 +12,7 @@
 		687E3F520F6CA3410000DCB8 /* BackgroundTasks.py in Resources */ = {isa = PBXBuildFile; fileRef = 687E3F510F6CA3410000DCB8 /* BackgroundTasks.py */; };
 		687E40270F6D07F20000DCB8 /* BackupController.py in Resources */ = {isa = PBXBuildFile; fileRef = 687E40260F6D07F20000DCB8 /* BackupController.py */; };
 		687E40A50F6D1E020000DCB8 /* BackupStatus.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687E40A40F6D1E020000DCB8 /* BackupStatus.xib */; };
+		687E429A0F6D80AB0000DCB8 /* FlippedView.py in Resources */ = {isa = PBXBuildFile; fileRef = 687E42990F6D80AB0000DCB8 /* FlippedView.py */; };
 		77631A270C06C501005415CB /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77631A260C06C501005415CB /* Python.framework */; };
 		77631A3F0C0748CF005415CB /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 77631A3E0C0748CF005415CB /* main.py */; };
 		7790198F0C07548A00326F66 /* UncloudAppDelegate.py in Resources */ = {isa = PBXBuildFile; fileRef = 7790198E0C07548A00326F66 /* UncloudAppDelegate.py */; };
@@ -34,6 +35,7 @@
 		687E3F510F6CA3410000DCB8 /* BackgroundTasks.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = BackgroundTasks.py; sourceTree = "<group>"; };
 		687E40260F6D07F20000DCB8 /* BackupController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = BackupController.py; sourceTree = "<group>"; };
 		687E40A40F6D1E020000DCB8 /* BackupStatus.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BackupStatus.xib; sourceTree = "<group>"; };
+		687E42990F6D80AB0000DCB8 /* FlippedView.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = FlippedView.py; sourceTree = "<group>"; };
 		77631A260C06C501005415CB /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = /System/Library/Frameworks/Python.framework; sourceTree = "<absolute>"; };
 		77631A3E0C0748CF005415CB /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
 		7790198E0C07548A00326F66 /* UncloudAppDelegate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = UncloudAppDelegate.py; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				687E3EEA0F6C03C90000DCB8 /* UncloudController.py */,
 				687E3F510F6CA3410000DCB8 /* BackgroundTasks.py */,
 				687E40260F6D07F20000DCB8 /* BackupController.py */,
+				687E42990F6D80AB0000DCB8 /* FlippedView.py */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 				687E3F520F6CA3410000DCB8 /* BackgroundTasks.py in Resources */,
 				687E40270F6D07F20000DCB8 /* BackupController.py in Resources */,
 				687E40A50F6D1E020000DCB8 /* BackupStatus.xib in Resources */,
+				687E429A0F6D80AB0000DCB8 /* FlippedView.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

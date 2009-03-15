@@ -11,6 +11,7 @@ from Foundation import *
 from AppKit import *
 from BackgroundTasks import LoginTask
 from BackupController import BackupController as BC
+from FlippedView import FlippedView as FV
 
 class UncloudController(NSObject):
     mainWindow = objc.IBOutlet()
@@ -25,7 +26,7 @@ class UncloudController(NSObject):
     # backups
     labels = objc.ivar(u"labels")
     selectedLabel = objc.ivar(u"selectedLabel")
-    backupsView = objc.IBOutlet()
+    backupsScrollView = objc.IBOutlet()
     
     def displayLoginSheet(self):
         NSLog(u"Displaying login sheet...")
@@ -38,7 +39,13 @@ class UncloudController(NSObject):
         self.loginProgressIndicator.setHidden_(True)
 
         app = NSApplication.sharedApplication()
-        app.beginSheet_modalForWindow_modalDelegate_didEndSelector_contextInfo_(self.loginSheet, self.mainWindow, None, None, None)    
+        app.beginSheet_modalForWindow_modalDelegate_didEndSelector_contextInfo_(self.loginSheet, self.mainWindow, None, None, None)
+        
+        self.backupsView = FV.alloc().initWithFrame_(NSMakeRect(0, 0, 510, 0))
+        # set a Flipped NSView as the document view for the NSScrollView
+        # in order to position the document view at the top-left corner
+        self.backupsScrollView.setDocumentView_(self.backupsView)
+        self.backupsScrollView.setHasVerticalScroller_(True)
     
     @objc.IBAction
     def doLogin_(self, sender):
@@ -61,8 +68,17 @@ class UncloudController(NSObject):
     @objc.IBAction
     def startBackup_(self, sender):
         backupController = BC.alloc().initWith_(self.account, self.selectedLabel)
+        
+        aView = backupController.view()
+        height = aView.frame().size.height
+        #aView.setFrameOrigin_(NSMakePoint(0.0, height * self.backups.count()))
         self.backups.addObject_(backupController)
-        self.backupsView.addSubview_(backupController.view())
+        
+        oldWidth = self.backupsView.frame().size.width
+        #self.backupsView.setFrameOrigin_(NSMakePoint(0.0, 50.0))
+        self.backupsView.setFrameSize_(NSSize(oldWidth, height * self.backups.count()))
+        self.backupsView.addSubview_(aView)
+
 
     def observeValueForKeyPath_ofObject_change_context_(self, keyPath, object, change, context):
         if(keyPath.isEqual_(u"isFinished") and change.objectForKey_(NSKeyValueChangeNewKey)):
@@ -83,8 +99,6 @@ class UncloudController(NSObject):
 
     def dealloc(self):
         NSLog("dealloc called on UncloudController")
-        
         self.backups.release()
-        
         super(UncloudController, self).dealloc()
 
