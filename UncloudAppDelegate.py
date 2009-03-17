@@ -3,13 +3,13 @@
 #  Uncloud
 #
 #  Created by Harish Mallipeddi on 3/14/09.
-#  Copyright __MyCompanyName__ 2009. All rights reserved.
+#  Copyright Harish Mallipeddi 2009. All rights reserved.
 #
 
 import objc
 from Foundation import *
 from AppKit import *
-import os
+import os, string
 
 class UncloudAppDelegate(NSObject):
     mainController = objc.IBOutlet()
@@ -35,4 +35,6 @@ class UncloudAppDelegate(NSObject):
         return fullPath
     
     def pathForFilename(self,filename):
+        valid_chars = "-_.() %s%s" % (string.ascii_letters, string.digits)
+        filename = ''.join(c for c in filename if c in valid_chars)
         return self.applicationSupportFolder().stringByAppendingPathComponent_(filename)

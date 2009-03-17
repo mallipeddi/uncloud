@@ -3,7 +3,7 @@
 #  Uncloud
 #
 #  Created by Harish Mallipeddi on 3/15/09.
-#  Copyright (c) 2009 __MyCompanyName__. All rights reserved.
+#  Copyright (c) 2009 Harish Mallipeddi. All rights reserved.
 #
 
 import objc
@@ -21,21 +21,21 @@ class BackupController(NSViewController):
         NSLog(u"trying to load from nib file...")
         if not super(BackupController, self).initWithNibName_bundle_(u"BackupStatus", None):
             return None
+
         self.statusMsg = u"Initiating backup..."
         self.label_name = label_name
+        self.totalEmails = None
+        self.fetchedEmails = None
 
         app = NSApplication.sharedApplication()        
 
+        # start background task to fetch emails and write to disk
         backupTask = BackupTask.alloc().init()
-        destPath = app.delegate().pathForFilename("%s.mbox" % label_name)
-        NSLog(u"destPath = %@", destPath)
-        backupTask.initTask(gmailAccount, label_name, destPath)
+        self.backupFilePath = app.delegate().pathForFilename("%s.mbox" % label_name)
+        backupTask.initTask(gmailAccount, label_name, self.backupFilePath)
         backupTask.addObserver_forKeyPath_options_context_(self, u"isFinished", NSKeyValueObservingOptionNew, BACKUPTASKCONTEXT)
         backupTask.addObserver_forKeyPath_options_context_(self, u"totalEmails", NSKeyValueObservingOptionNew, BACKUPTASKCONTEXT)
         backupTask.addObserver_forKeyPath_options_context_(self, u"fetchedEmails", NSKeyValueObservingOptionNew, BACKUPTASKCONTEXT)
-
-        self.totalEmails = None
-        self.fetchedEmails = None
 
         opQ = app.delegate().opQ
         opQ.addOperation_(backupTask)
@@ -48,6 +48,7 @@ class BackupController(NSViewController):
             if(keyPath.isEqual_(u"isFinished") and changedVal): # if isFinished is True
                 if(self.totalEmails is not None and self.fetchedEmails == self.totalEmails):
                     self.statusMsg = u"Backup complete."
+                    self.view().prepareForDnD(self.backupFilePath)
                 else:
                     self.statusMsg = u"Backup failed."
                 object.removeObserver_forKeyPath_(self, u"isFinished")
