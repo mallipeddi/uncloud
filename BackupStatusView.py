@@ -6,11 +6,13 @@
 #  Copyright (c) 2009 Harish Mallipeddi. All rights reserved.
 #
 
-from objc import YES, NO, IBAction, IBOutlet
+import objc
 from Foundation import *
 from AppKit import *
 
 class BackupStatusView(NSView):
+    performedDnD = objc.ivar(u"performedDnD")
+
     def initWithFrame_(self, frame):
         self = super(BackupStatusView, self).initWithFrame_(frame)
         if self:
@@ -20,6 +22,7 @@ class BackupStatusView(NSView):
     def prepareForDnD(self, backupFilePath):
         self.enableDnD = True
         self.backupFilePath = backupFilePath
+        self.setValue_forKey_(False, u"performedDnd")
 
     def draggingSourceOperationMaskForLocal_(self, isLocal):
         return NSDragOperationMove
@@ -36,6 +39,9 @@ class BackupStatusView(NSView):
             dragImage = NSWorkspace.sharedWorkspace().iconForFile_(self.backupFilePath)
             dragPosition = self.convertPoint_fromView_(event.locationInWindow(), None)
             self.dragImage_at_offset_event_pasteboard_source_slideBack_(
-                dragImage, dragPosition, NSZeroSize, event, pboard, self, YES)
-        
-
+                dragImage, dragPosition, NSZeroSize, event, pboard, self, objc.YES)
+    
+    def draggedImage_endedAt_operation_(self, image, screenPoint, operationPerformed):
+        NSLog(u"DnD operation (%@) performed successfully", operationPerformed)
+        self.setValue_forKey_(True, u"performedDnd")
+        self.removeFromSuperview()

@@ -11,14 +11,15 @@ from Foundation import *
 from BackgroundTasks import BackupTask
 
 BACKUPTASKCONTEXT = 1
+BACKUPVIEWFINISHEDDND = 2
 
 class BackupController(NSViewController):
+    isFinished = objc.ivar(u"isFinished")
     statusMsg = objc.ivar(u"statusMsg")
     totalEmails = objc.ivar(u"totalEmails")
     fetchedEmails = objc.ivar(u"fetchedEmails")
 
     def initWith_(self, gmailAccount, label_name):
-        NSLog(u"trying to load from nib file...")
         if not super(BackupController, self).initWithNibName_bundle_(u"BackupStatus", None):
             return None
 
@@ -43,11 +44,13 @@ class BackupController(NSViewController):
         return self
     
     def observeValueForKeyPath_ofObject_change_context_(self, keyPath, object, change, context):
+        # track the progress of the background task by observing the relevant keys
         changedVal = change.objectForKey_(NSKeyValueChangeNewKey)
         if(context == BACKUPTASKCONTEXT):
             if(keyPath.isEqual_(u"isFinished") and changedVal): # if isFinished is True
                 if(self.totalEmails is not None and self.fetchedEmails == self.totalEmails):
                     self.statusMsg = u"Backup complete."
+                    self.view().addObserver_forKeyPath_options_context_(self, u"performedDnD", NSKeyValueObservingOptionNew, BACKUPVIEWFINISHEDDND)
                     self.view().prepareForDnD(self.backupFilePath)
                 else:
                     self.statusMsg = u"Backup failed."
@@ -63,3 +66,7 @@ class BackupController(NSViewController):
                                     str(self.fetchedEmails), str(self.totalEmails), self.label_name)
             else:
                 pass
+        elif(context == BACKUPVIEWFINISHEDDND):
+            self.setValue_forKey_(True, u"isFinished")
+        else:
+            pass

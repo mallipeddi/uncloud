@@ -11,3 +11,4 @@ from Foundation import *
 class FlippedView(NSView):
     def isFlipped(self):
         return True
+

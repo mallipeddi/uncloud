@@ -20,12 +20,6 @@ class UncloudAppDelegate(NSObject):
         self.opQ = NSOperationQueue.alloc().init()
         self.mainController.displayLoginSheet()
 
-    def applicationDidBecomeActive_(self, sender):
-        NSLog("Application did become active.")
-
-    def applicationWillTerminate_(self, sender):
-        self.opQ.release()
-
     def applicationSupportFolder(self):
         paths = NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory,NSUserDomainMask,True)
         basePath = (len(paths) > 0 and paths[0]) or NSTemporaryDirectory()

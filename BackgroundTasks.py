@@ -17,16 +17,10 @@ class LoginTask(NSOperation):
         self.account = None
     
     def main(self):
-        NSLog(u"Executing main = %@, %@", self.accountEmail, self.accountPassword)
         self.account = gmail2amail.Account(self.accountEmail, self.accountPassword)
-        NSLog(u"Fetched labels = %@", self.account.labels)
     
     def get_account(self):
         return self.account
-
-    def dealloc(self):
-        NSLog(u"dealloc on task invoked")
-        super(LoginTask, self).dealloc()
 
 class BackupTask(NSOperation):
     totalEmails = objc.ivar(u"totalEmails")
@@ -47,5 +41,3 @@ class BackupTask(NSOperation):
         NSLog(u"Done fetching emails...")
         self.mboxWriter.close()
         self.label.close()
-
-        

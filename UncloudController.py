@@ -13,6 +13,9 @@ from BackgroundTasks import LoginTask
 from BackupController import BackupController as BC
 from FlippedView import FlippedView as FV
 
+LOGINTASKFINISHED = 1
+BACKUPSTATUSVIEWFINISHED = 1
+
 class UncloudController(NSObject):
     mainWindow = objc.IBOutlet()
     
@@ -51,7 +54,6 @@ class UncloudController(NSObject):
     def doLogin_(self, sender):
         app = NSApplication.sharedApplication()
         
-        NSLog(u"Trying to login with %@:%@", self.accountEmail, self.accountPassword)
         self.loginProgressIndicator.startAnimation_(self)
         self.loginProgressIndicator.setHidden_(False)
         self.loginStatusLabel.setTextColor_(NSColor.blackColor())
@@ -61,44 +63,40 @@ class UncloudController(NSObject):
         # start background task to login and fetch labels
         loginTask = LoginTask.alloc().init()
         loginTask.initTask(self.accountEmail, self.accountPassword)
-        loginTask.addObserver_forKeyPath_options_context_(self, u"isFinished", NSKeyValueObservingOptionNew, None)
+        loginTask.addObserver_forKeyPath_options_context_(self, u"isFinished", NSKeyValueObservingOptionNew, LOGINTASKFINISHED)
         opQ = app.delegate().opQ
         opQ.addOperation_(loginTask)
 
     @objc.IBAction
     def startBackup_(self, sender):
-        backupController = BC.alloc().initWith_(self.account, self.selectedLabel)
+        "start an instance of a BackupController and add it's view as a subView of the container view"
         
-        aView = backupController.view()
-        height = aView.frame().size.height
-        #aView.setFrameOrigin_(NSMakePoint(0.0, height * self.backups.count()))
-        self.backups.addObject_(backupController)
-        
-        oldWidth = self.backupsView.frame().size.width
-        #self.backupsView.setFrameOrigin_(NSMakePoint(0.0, 50.0))
-        self.backupsView.setFrameSize_(NSSize(oldWidth, height * self.backups.count()))
-        self.backupsView.addSubview_(aView)
+        if self.selectedLabel:
+            backupController = BC.alloc().initWith_(self.account, self.selectedLabel)
+            self.backups.addObject_(backupController)
 
+            aView = backupController.view()
+            height = aView.frame().size.height        
+            oldWidth = self.backupsView.frame().size.width
+            self.backupsView.setFrameSize_(NSSize(oldWidth, height * self.backups.count()))
+            self.backupsView.addSubview_(aView)
 
     def observeValueForKeyPath_ofObject_change_context_(self, keyPath, object, change, context):
         if(keyPath.isEqual_(u"isFinished") and change.objectForKey_(NSKeyValueChangeNewKey)):
-            self.loginProgressIndicator.stopAnimation_(self)
-            
-            self.account = object.get_account()
-            if self.account and self.account.labels:
-                # login succeeded. let's close the login sheet
-                NSLog(u"Removing the login sheet...")
-                app = NSApplication.sharedApplication()
-                app.endSheet_(self.loginSheet)
-                self.loginSheet.orderOut_(self)
-                self.labels = self.account.labels
-            else:
-                # login failed
-                self.loginStatusLabel.setTextColor_(NSColor.redColor())
-                self.loginStatusLabel.setStringValue_(u"Login failed.")
-
-    def dealloc(self):
-        NSLog("dealloc called on UncloudController")
-        self.backups.release()
-        super(UncloudController, self).dealloc()
-
+            if(context == LOGINTASKFINISHED):
+                self.loginProgressIndicator.stopAnimation_(self)
+                
+                self.account = object.get_account()
+                if self.account and self.account.labels:
+                    # login succeeded. let's close the login sheet
+                    app = NSApplication.sharedApplication()
+                    app.endSheet_(self.loginSheet)
+                    self.loginSheet.orderOut_(self)
+                    self.labels = self.account.labels
+                else:
+                    # login failed
+                    self.loginStatusLabel.setTextColor_(NSColor.redColor())
+                    self.loginStatusLabel.setStringValue_(u"Login failed.")
+            elif(context == BACKUPSTATUSVIEWFINISHED):
+                # BackupStatusViewController has finished. Let's remove it from the controllers list.
+                self.backups.removeObject_(object)
