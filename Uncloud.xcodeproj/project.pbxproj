@@ -38,6 +38,7 @@
 		687E40A40F6D1E020000DCB8 /* BackupStatus.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BackupStatus.xib; sourceTree = "<group>"; };
 		687E42990F6D80AB0000DCB8 /* FlippedView.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = FlippedView.py; sourceTree = "<group>"; };
 		68CC6B890F6F913A00DFA898 /* BackupStatusView.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = BackupStatusView.py; sourceTree = "<group>"; };
+		68CC6C690F6FB66000DFA898 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; wrapsLines = 1; };
 		77631A260C06C501005415CB /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = /System/Library/Frameworks/Python.framework; sourceTree = "<absolute>"; };
 		77631A3E0C0748CF005415CB /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
 		7790198E0C07548A00326F66 /* UncloudAppDelegate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = UncloudAppDelegate.py; sourceTree = "<group>"; };
@@ -129,6 +130,7 @@
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				687E40A40F6D1E020000DCB8 /* BackupStatus.xib */,
+				68CC6C690F6FB66000DFA898 /* README.markdown */,
 			);
 			name = Resources;
 			sourceTree = "<group>";

@@ -5,7 +5,6 @@
 		activeExecutable = 687E3EB80F6BF9B70000DCB8 /* Uncloud */;
 		activeTarget = 8D1107260486CEB800E47090 /* Uncloud */;
 		addToTargets = (
-			8D1107260486CEB800E47090 /* Uncloud */,
 		);
 		codeSenseManager = 687E3EC50F6BF9D60000DCB8 /* Code sense */;
 		executables = (
