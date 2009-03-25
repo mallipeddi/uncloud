@@ -73,6 +73,13 @@ class UncloudController(NSObject):
         opQ.addOperation_(loginTask)
 
     @objc.IBAction
+    def doLoginCancel_(self, sender):
+        app = NSApplication.sharedApplication()
+        app.endSheet_(self.loginSheet)
+        self.loginSheet.orderOut_(self)
+        app.terminate_(self)
+
+    @objc.IBAction
     def startBackup_(self, sender):
         "start an instance of a BackupController and add it's view as a subView of the container view"
         

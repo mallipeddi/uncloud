@@ -16,6 +16,7 @@ BACKUPVIEWFINISHEDDND = 2
 class BackupController(NSViewController):
     isFinished = objc.ivar(u"isFinished")
     statusMsg = objc.ivar(u"statusMsg")
+    statusMsgFont = objc.ivar(u"statusMsgFont")
     totalEmails = objc.ivar(u"totalEmails")
     fetchedEmails = objc.ivar(u"fetchedEmails")
 
@@ -24,6 +25,7 @@ class BackupController(NSViewController):
             return None
 
         self.statusMsg = u"Initiating backup..."
+        self.statusMsgFont = NSFont.messageFontOfSize_(11.0)
         self.label_name = label_name
         self.totalEmails = None
         self.fetchedEmails = None
@@ -49,7 +51,7 @@ class BackupController(NSViewController):
         if(context == BACKUPTASKCONTEXT):
             if(keyPath.isEqual_(u"isFinished") and changedVal): # if isFinished is True
                 if(self.totalEmails is not None and self.fetchedEmails == self.totalEmails):
-                    self.statusMsg = u"Backup complete."
+                    self.statusMsg = u"\"%s\" complete. Drag into desired location in Finder." % self.label_name
                     self.view().addObserver_forKeyPath_options_context_(self, u"performedDnD", NSKeyValueObservingOptionNew, BACKUPVIEWFINISHEDDND)
                     self.view().prepareForDnD(self.backupFilePath)
                 else:

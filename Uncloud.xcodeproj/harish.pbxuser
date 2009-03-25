@@ -1,7 +1,7 @@
 // !$*UTF8*$!
 {
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Release;
 		activeExecutable = 687E3EB80F6BF9B70000DCB8 /* Uncloud */;
 		activeTarget = 8D1107260486CEB800E47090 /* Uncloud */;
 		addToTargets = (
@@ -46,6 +46,57 @@
 			684D11810F7A660F00D4B6A7 /* PBXTextBookmark */ = 684D11810F7A660F00D4B6A7 /* PBXTextBookmark */;
 			684D11820F7A660F00D4B6A7 /* PBXTextBookmark */ = 684D11820F7A660F00D4B6A7 /* PBXTextBookmark */;
 			684D11830F7A660F00D4B6A7 /* PBXTextBookmark */ = 684D11830F7A660F00D4B6A7 /* PBXTextBookmark */;
+			684D11C00F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11C00F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11C10F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11C10F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11C20F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11C20F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11C30F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11C30F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11C40F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11C40F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11C50F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11C50F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11C60F7A8F8300D4B6A7 /* PlistBookmark */ = 684D11C60F7A8F8300D4B6A7 /* PlistBookmark */;
+			684D11C70F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11C70F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11C80F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11C80F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11C90F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11C90F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11CA0F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11CA0F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11CB0F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11CB0F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11CC0F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11CC0F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11CD0F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11CD0F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11CE0F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11CE0F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11CF0F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11CF0F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11D00F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11D00F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11D10F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11D10F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11D20F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11D20F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11D30F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11D30F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11D40F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11D40F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11D50F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11D50F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11D60F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11D60F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11D70F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11D70F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11D80F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11D80F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11D90F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11D90F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11DA0F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11DA0F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11DB0F7A8F8300D4B6A7 /* PBXTextBookmark */ = 684D11DB0F7A8F8300D4B6A7 /* PBXTextBookmark */;
+			684D11DC0F7A8F8300D4B6A7 /* PlistBookmark */ = 684D11DC0F7A8F8300D4B6A7 /* PlistBookmark */;
+			684D11ED0F7A949600D4B6A7 /* PBXTextBookmark */ = 684D11ED0F7A949600D4B6A7 /* PBXTextBookmark */;
+			684D11EE0F7A949600D4B6A7 /* PBXTextBookmark */ = 684D11EE0F7A949600D4B6A7 /* PBXTextBookmark */;
+			684D11EF0F7A949600D4B6A7 /* PBXTextBookmark */ = 684D11EF0F7A949600D4B6A7 /* PBXTextBookmark */;
+			684D11F00F7A949600D4B6A7 /* PBXTextBookmark */ = 684D11F00F7A949600D4B6A7 /* PBXTextBookmark */;
+			684D11F10F7A95B100D4B6A7 /* PBXTextBookmark */ = 684D11F10F7A95B100D4B6A7 /* PBXTextBookmark */;
+			684D11F30F7A962C00D4B6A7 /* PBXTextBookmark */ = 684D11F30F7A962C00D4B6A7 /* PBXTextBookmark */;
+			684D11F40F7A96D400D4B6A7 /* PBXTextBookmark */ = 684D11F40F7A96D400D4B6A7 /* PBXTextBookmark */;
+			684D11F60F7A97C400D4B6A7 /* PBXTextBookmark */ = 684D11F60F7A97C400D4B6A7 /* PBXTextBookmark */;
+			684D11F70F7A97C400D4B6A7 /* PBXTextBookmark */ = 684D11F70F7A97C400D4B6A7 /* PBXTextBookmark */;
+			684D11F80F7A97C400D4B6A7 /* PBXTextBookmark */ = 684D11F80F7A97C400D4B6A7 /* PBXTextBookmark */;
+			684D11FD0F7A980200D4B6A7 /* PBXTextBookmark */ = 684D11FD0F7A980200D4B6A7 /* PBXTextBookmark */;
+			684D12000F7A989600D4B6A7 /* PBXTextBookmark */ = 684D12000F7A989600D4B6A7 /* PBXTextBookmark */;
+			684D12010F7A989600D4B6A7 /* PBXTextBookmark */ = 684D12010F7A989600D4B6A7 /* PBXTextBookmark */;
+			684D12020F7A989600D4B6A7 /* PBXTextBookmark */ = 684D12020F7A989600D4B6A7 /* PBXTextBookmark */;
+			684D12030F7A989600D4B6A7 /* PBXTextBookmark */ = 684D12030F7A989600D4B6A7 /* PBXTextBookmark */;
+			684D12040F7A989600D4B6A7 /* PBXTextBookmark */ = 684D12040F7A989600D4B6A7 /* PBXTextBookmark */;
+			684D12050F7A989600D4B6A7 /* PBXTextBookmark */ = 684D12050F7A989600D4B6A7 /* PBXTextBookmark */;
+			684D12060F7A989600D4B6A7 /* PBXTextBookmark */ = 684D12060F7A989600D4B6A7 /* PBXTextBookmark */;
+			684D12090F7A998000D4B6A7 /* PBXTextBookmark */ = 684D12090F7A998000D4B6A7 /* PBXTextBookmark */;
+			684D120A0F7A998000D4B6A7 /* PBXTextBookmark */ = 684D120A0F7A998000D4B6A7 /* PBXTextBookmark */;
+			684D120B0F7A998000D4B6A7 /* PBXTextBookmark */ = 684D120B0F7A998000D4B6A7 /* PBXTextBookmark */;
+			684D120C0F7A998000D4B6A7 /* PBXTextBookmark */ = 684D120C0F7A998000D4B6A7 /* PBXTextBookmark */;
 			687E3ECC0F6C02400000DCB8 = 687E3ECC0F6C02400000DCB8 /* PBXTextBookmark */;
 			687E3ECD0F6C02400000DCB8 = 687E3ECD0F6C02400000DCB8 /* PBXTextBookmark */;
 			687E3EE50F6C03710000DCB8 = 687E3EE50F6C03710000DCB8 /* PBXTextBookmark */;
@@ -267,6 +318,515 @@
 		vrLen = 519;
 		vrLoc = 0;
 	};
+	684D11C00F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 68CC6C690F6FB66000DFA898 /* README.markdown */;
+		name = "README.markdown: 9";
+		rLen = 0;
+		rLoc = 519;
+		rType = 0;
+		vrLen = 519;
+		vrLoc = 0;
+	};
+	684D11C10F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 684D11790F7A63E100D4B6A7 /* myimaplib.py */;
+		name = "myimaplib.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2323;
+		vrLoc = 0;
+	};
+	684D11C20F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
+		name = "UncloudController.py: 54";
+		rLen = 0;
+		rLoc = 1963;
+		rType = 0;
+		vrLen = 3471;
+		vrLoc = 1043;
+	};
+	684D11C30F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3F510F6CA3410000DCB8 /* BackgroundTasks.py */;
+		name = "BackgroundTasks.py: 30";
+		rLen = 0;
+		rLoc = 775;
+		rType = 0;
+		vrLen = 1367;
+		vrLoc = 0;
+	};
+	684D11C40F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
+		name = "BackupStatusView.py: 13";
+		rLen = 0;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 2199;
+		vrLoc = 0;
+	};
+	684D11C50F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
+		name = "BackupController.py: 15";
+		rLen = 0;
+		rLoc = 272;
+		rType = 0;
+		vrLen = 3033;
+		vrLoc = 0;
+	};
+	684D11C60F7A8F8300D4B6A7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/harish/Code/ObjC/Uncloud/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	684D11C70F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 68CC6C690F6FB66000DFA898 /* README.markdown */;
+		name = "README.markdown: 9";
+		rLen = 0;
+		rLoc = 519;
+		rType = 0;
+		vrLen = 519;
+		vrLoc = 0;
+	};
+	684D11C80F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 684D11790F7A63E100D4B6A7 /* myimaplib.py */;
+		name = "myimaplib.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2323;
+		vrLoc = 0;
+	};
+	684D11C90F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
+		name = "BackupStatusView.py: 31";
+		rLen = 0;
+		rLoc = 824;
+		rType = 0;
+		vrLen = 1796;
+		vrLoc = 0;
+	};
+	684D11CA0F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
+		name = "UncloudController.py: 74";
+		rLen = 0;
+		rLoc = 3333;
+		rType = 0;
+		vrLen = 3191;
+		vrLoc = 1043;
+	};
+	684D11CB0F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
+		name = "BackupStatusView.py: 11";
+		rLen = 0;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 2027;
+		vrLoc = 0;
+	};
+	684D11CC0F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
+		name = "UncloudController.py: 67";
+		rLen = 0;
+		rLoc = 2647;
+		rType = 0;
+		vrLen = 3341;
+		vrLoc = 974;
+	};
+	684D11CD0F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
+		name = "BackupStatusView.py: 52";
+		rLen = 0;
+		rLoc = 1949;
+		rType = 0;
+		vrLen = 2154;
+		vrLoc = 0;
+	};
+	684D11CE0F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
+		name = "UncloudController.py: 67";
+		rLen = 0;
+		rLoc = 2647;
+		rType = 0;
+		vrLen = 3308;
+		vrLoc = 1007;
+	};
+	684D11CF0F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
+		name = "BackupStatusView.py: 60";
+		rLen = 0;
+		rLoc = 2170;
+		rType = 0;
+		vrLen = 2214;
+		vrLoc = 0;
+	};
+	684D11D00F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
+		name = "UncloudController.py: 82";
+		rLen = 0;
+		rLoc = 3570;
+		rType = 0;
+		vrLen = 3261;
+		vrLoc = 1007;
+	};
+	684D11D10F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
+		name = "BackupStatusView.py: 51";
+		rLen = 24;
+		rLoc = 1871;
+		rType = 0;
+		vrLen = 2214;
+		vrLoc = 0;
+	};
+	684D11D20F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
+		name = "UncloudController.py: 84";
+		rLen = 0;
+		rLoc = 3791;
+		rType = 0;
+		vrLen = 3242;
+		vrLoc = 1007;
+	};
+	684D11D30F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
+		name = "BackupStatusView.py: 37";
+		rLen = 0;
+		rLoc = 1049;
+		rType = 0;
+		vrLen = 2219;
+		vrLoc = 0;
+	};
+	684D11D40F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
+		name = "BackupController.py: 16";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 2969;
+		vrLoc = 0;
+	};
+	684D11D50F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
+		name = "UncloudController.py: 69";
+		rLen = 0;
+		rLoc = 2772;
+		rType = 0;
+		vrLen = 2377;
+		vrLoc = 0;
+	};
+	684D11D60F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3F510F6CA3410000DCB8 /* BackgroundTasks.py */;
+		name = "BackgroundTasks.py: 30";
+		rLen = 0;
+		rLoc = 775;
+		rType = 0;
+		vrLen = 1367;
+		vrLoc = 0;
+	};
+	684D11D70F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
+		name = "BackupStatusView.py: 13";
+		rLen = 0;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 2199;
+		vrLoc = 0;
+	};
+	684D11D80F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
+		name = "UncloudController.py: 54";
+		rLen = 0;
+		rLoc = 1963;
+		rType = 0;
+		vrLen = 3471;
+		vrLoc = 1043;
+	};
+	684D11D90F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3F510F6CA3410000DCB8 /* BackgroundTasks.py */;
+		name = "BackgroundTasks.py: 30";
+		rLen = 0;
+		rLoc = 775;
+		rType = 0;
+		vrLen = 1367;
+		vrLoc = 0;
+	};
+	684D11DA0F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
+		name = "BackupStatusView.py: 13";
+		rLen = 0;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 2199;
+		vrLoc = 0;
+	};
+	684D11DB0F7A8F8300D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
+		name = "BackupController.py: 15";
+		rLen = 0;
+		rLoc = 272;
+		rType = 0;
+		vrLen = 3033;
+		vrLoc = 0;
+	};
+	684D11DC0F7A8F8300D4B6A7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/harish/Code/ObjC/Uncloud/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	684D11ED0F7A949600D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
+		name = "BackupController.py: 15";
+		rLen = 0;
+		rLoc = 272;
+		rType = 0;
+		vrLen = 3033;
+		vrLoc = 0;
+	};
+	684D11EE0F7A949600D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		rLen = 0;
+		rLoc = 2147483735;
+		rType = 0;
+	};
+	684D11EF0F7A949600D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
+		name = "BackupController.py: 15";
+		rLen = 0;
+		rLoc = 272;
+		rType = 0;
+		vrLen = 3033;
+		vrLoc = 0;
+	};
+	684D11F00F7A949600D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		name = "Info.plist: 12";
+		rLen = 0;
+		rLoc = 427;
+		rType = 0;
+		vrLen = 901;
+		vrLoc = 0;
+	};
+	684D11F10F7A95B100D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		name = "Info.plist: 13";
+		rLen = 0;
+		rLoc = 441;
+		rType = 0;
+		vrLen = 901;
+		vrLoc = 0;
+	};
+	684D11F30F7A962C00D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		name = "Info.plist: 30";
+		rLen = 0;
+		rLoc = 970;
+		rType = 0;
+		vrLen = 998;
+		vrLoc = 0;
+	};
+	684D11F40F7A96D400D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		name = "Info.plist: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 998;
+		vrLoc = 0;
+	};
+	684D11F60F7A97C400D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		name = "Info.plist: 19";
+		rLen = 0;
+		rLoc = 644;
+		rType = 0;
+		vrLen = 998;
+		vrLoc = 0;
+	};
+	684D11F70F7A97C400D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		name = "Info.plist: 19";
+		rLen = 0;
+		rLoc = 644;
+		rType = 0;
+		vrLen = 998;
+		vrLoc = 0;
+	};
+	684D11F80F7A97C400D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
+		name = "UncloudController.py: 78";
+		rLen = 0;
+		rLoc = 3138;
+		rType = 0;
+		vrLen = 3249;
+		vrLoc = 920;
+	};
+	684D11FD0F7A980200D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
+		name = "UncloudController.py: 78";
+		rLen = 0;
+		rLoc = 3138;
+		rType = 0;
+		vrLen = 3114;
+		vrLoc = 920;
+	};
+	684D12000F7A989600D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
+		name = "BackupStatusView.py: 13";
+		rLen = 0;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 2199;
+		vrLoc = 0;
+	};
+	684D12010F7A989600D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3F510F6CA3410000DCB8 /* BackgroundTasks.py */;
+		name = "BackgroundTasks.py: 30";
+		rLen = 0;
+		rLoc = 775;
+		rType = 0;
+		vrLen = 1367;
+		vrLoc = 0;
+	};
+	684D12020F7A989600D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
+		name = "UncloudController.py: 77";
+		rLen = 0;
+		rLoc = 2982;
+		rType = 0;
+		vrLen = 2985;
+		vrLoc = 702;
+	};
+	684D12030F7A989600D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
+		name = "UncloudController.py: 77";
+		rLen = 0;
+		rLoc = 2982;
+		rType = 0;
+		vrLen = 2985;
+		vrLoc = 702;
+	};
+	684D12040F7A989600D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
+		name = "BackupStatusView.py: 13";
+		rLen = 0;
+		rLoc = 237;
+		rType = 0;
+		vrLen = 2199;
+		vrLoc = 0;
+	};
+	684D12050F7A989600D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3F510F6CA3410000DCB8 /* BackgroundTasks.py */;
+		name = "BackgroundTasks.py: 30";
+		rLen = 0;
+		rLoc = 775;
+		rType = 0;
+		vrLen = 1367;
+		vrLoc = 0;
+	};
+	684D12060F7A989600D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
+		name = "UncloudController.py: 76";
+		rLen = 0;
+		rLoc = 2982;
+		rType = 0;
+		vrLen = 3130;
+		vrLoc = 1964;
+	};
+	684D12090F7A998000D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
+		name = "UncloudController.py: 80";
+		rLen = 0;
+		rLoc = 3138;
+		rType = 0;
+		vrLen = 3181;
+		vrLoc = 1964;
+	};
+	684D120A0F7A998000D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		name = "Info.plist: 19";
+		rLen = 0;
+		rLoc = 644;
+		rType = 0;
+		vrLen = 998;
+		vrLoc = 0;
+	};
+	684D120B0F7A998000D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
+		name = "UncloudController.py: 80";
+		rLen = 0;
+		rLoc = 3138;
+		rType = 0;
+		vrLen = 3181;
+		vrLoc = 1964;
+	};
+	684D120C0F7A998000D4B6A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		name = "Info.plist: 28";
+		rLen = 0;
+		rLoc = 883;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 0;
+	};
 	687E3EB80F6BF9B70000DCB8 /* Uncloud */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -343,9 +903,9 @@
 	};
 	687E3EEA0F6C03C90000DCB8 /* UncloudController.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {933, 1442}}";
-			sepNavSelRange = "{2199, 0}";
-			sepNavVisRange = "{1007, 3227}";
+			sepNavIntBoundsRect = "{{0, 0}, {934, 1666}}";
+			sepNavSelRange = "{3138, 0}";
+			sepNavVisRange = "{1964, 3181}";
 			sepNavWindowFrame = "{{83, 198}, {1086, 778}}";
 		};
 	};
@@ -354,16 +914,16 @@
 		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
 		name = "UncloudController.py: 12";
 		rLen = 0;
-		rLoc = 2465;
+		rLoc = 2924;
 		rType = 0;
 		vrLen = 218;
 		vrLoc = 0;
 	};
 	687E3F510F6CA3410000DCB8 /* BackgroundTasks.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {720, 672}}";
-			sepNavSelRange = "{864, 4}";
-			sepNavVisRange = "{514, 480}";
+			sepNavIntBoundsRect = "{{0, 0}, {934, 893}}";
+			sepNavSelRange = "{775, 0}";
+			sepNavVisRange = "{0, 1367}";
 		};
 	};
 	687E3F560F6CA3670000DCB8 /* PBXTextBookmark */ = {
@@ -378,9 +938,9 @@
 	};
 	687E40260F6D07F20000DCB8 /* BackupController.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {933, 1022}}";
-			sepNavSelRange = "{296, 0}";
-			sepNavVisRange = "{0, 2969}";
+			sepNavIntBoundsRect = "{{0, 0}, {934, 1050}}";
+			sepNavSelRange = "{272, 0}";
+			sepNavVisRange = "{0, 3033}";
 		};
 	};
 	687E403E0F6D0D740000DCB8 /* PBXTextBookmark */ = {
@@ -432,9 +992,9 @@
 	};
 	68CC6B890F6F913A00DFA898 /* BackupStatusView.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {933, 893}}";
-			sepNavSelRange = "{732, 0}";
-			sepNavVisRange = "{0, 1796}";
+			sepNavIntBoundsRect = "{{0, 0}, {934, 893}}";
+			sepNavSelRange = "{237, 0}";
+			sepNavVisRange = "{0, 2199}";
 		};
 	};
 	68CC6B9E0F6FA36300DFA898 /* PBXTextBookmark */ = {
@@ -483,7 +1043,7 @@
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 25";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 846;
 		rType = 0;
 		vrLen = 2819;
 		vrLoc = 2;
@@ -505,7 +1065,7 @@
 		rLen = 0;
 		rLoc = 1366;
 		rType = 0;
-		vrLen = 1625;
+		vrLen = 1367;
 		vrLoc = 0;
 	};
 	68CC6BAB0F6FA36300DFA898 /* PBXTextBookmark */ = {
@@ -513,7 +1073,7 @@
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 25";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 846;
 		rType = 0;
 		vrLen = 2821;
 		vrLoc = 0;
@@ -525,7 +1085,7 @@
 		rLen = 0;
 		rLoc = 1366;
 		rType = 0;
-		vrLen = 1625;
+		vrLen = 1367;
 		vrLoc = 0;
 	};
 	68CC6BAD0F6FA36300DFA898 /* PBXTextBookmark */ = {
@@ -545,7 +1105,7 @@
 		rLen = 0;
 		rLoc = 1366;
 		rType = 0;
-		vrLen = 1625;
+		vrLen = 1367;
 		vrLoc = 0;
 	};
 	68CC6BAF0F6FA36300DFA898 /* PBXTextBookmark */ = {
@@ -553,7 +1113,7 @@
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 27";
 		rLen = 0;
-		rLoc = 855;
+		rLoc = 964;
 		rType = 0;
 		vrLen = 2821;
 		vrLoc = 0;
@@ -593,7 +1153,7 @@
 		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
 		name = "BackupStatusView.py: 19";
 		rLen = 0;
-		rLoc = 1540;
+		rLoc = 1567;
 		rType = 0;
 		vrLen = 449;
 		vrLoc = 0;
@@ -623,7 +1183,7 @@
 		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
 		name = "BackupStatusView.py: 21";
 		rLen = 0;
-		rLoc = 1796;
+		rLoc = 2199;
 		rType = 0;
 		vrLen = 449;
 		vrLoc = 0;
@@ -654,7 +1214,7 @@
 		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
 		name = "BackupStatusView.py: 23";
 		rLen = 0;
-		rLoc = 733;
+		rLoc = 760;
 		rType = 0;
 		vrLen = 1376;
 		vrLoc = 0;
@@ -664,7 +1224,7 @@
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 45";
 		rLen = 0;
-		rLoc = 1666;
+		rLoc = 1775;
 		rType = 0;
 		vrLen = 2819;
 		vrLoc = 2;
@@ -684,7 +1244,7 @@
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 45";
 		rLen = 0;
-		rLoc = 1666;
+		rLoc = 1775;
 		rType = 0;
 		vrLen = 2821;
 		vrLoc = 0;
@@ -694,7 +1254,7 @@
 		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
 		name = "UncloudController.py: 79";
 		rLen = 0;
-		rLoc = 2664;
+		rLoc = 3337;
 		rType = 0;
 		vrLen = 3005;
 		vrLoc = 1141;
@@ -716,7 +1276,7 @@
 		rLen = 0;
 		rLoc = 1366;
 		rType = 0;
-		vrLen = 1625;
+		vrLen = 1367;
 		vrLoc = 0;
 	};
 	68CC6BC00F6FA36300DFA898 /* PBXTextBookmark */ = {
@@ -754,7 +1314,7 @@
 		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
 		name = "UncloudController.py: 79";
 		rLen = 0;
-		rLoc = 2664;
+		rLoc = 3337;
 		rType = 0;
 		vrLen = 2417;
 		vrLoc = 0;
@@ -774,7 +1334,7 @@
 		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
 		name = "UncloudController.py: 79";
 		rLen = 0;
-		rLoc = 2664;
+		rLoc = 3337;
 		rType = 0;
 		vrLen = 2417;
 		vrLoc = 0;
@@ -814,7 +1374,7 @@
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 34";
 		rLen = 0;
-		rLoc = 1060;
+		rLoc = 1169;
 		rType = 0;
 		vrLen = 2913;
 		vrLoc = 0;
@@ -836,7 +1396,7 @@
 		rLen = 0;
 		rLoc = 1366;
 		rType = 0;
-		vrLen = 1625;
+		vrLen = 1367;
 		vrLoc = 0;
 	};
 	68CC6BCC0F6FA36300DFA898 /* PBXTextBookmark */ = {
@@ -856,7 +1416,7 @@
 		rLen = 0;
 		rLoc = 1366;
 		rType = 0;
-		vrLen = 1625;
+		vrLen = 1367;
 		vrLoc = 0;
 	};
 	68CC6BCE0F6FA36300DFA898 /* PBXTextBookmark */ = {
@@ -864,7 +1424,7 @@
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 34";
 		rLen = 0;
-		rLoc = 1012;
+		rLoc = 1121;
 		rType = 0;
 		vrLen = 2913;
 		vrLoc = 0;
@@ -874,7 +1434,7 @@
 		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
 		name = "BackupStatusView.py: 21";
 		rLen = 0;
-		rLoc = 520;
+		rLoc = 547;
 		rType = 0;
 		vrLen = 1473;
 		vrLoc = 0;
@@ -884,7 +1444,7 @@
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 51";
 		rLen = 0;
-		rLoc = 2335;
+		rLoc = 2500;
 		rType = 0;
 		vrLen = 2909;
 		vrLoc = 25;
@@ -894,7 +1454,7 @@
 		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
 		name = "BackupStatusView.py: 21";
 		rLen = 0;
-		rLoc = 520;
+		rLoc = 547;
 		rType = 0;
 		vrLen = 1473;
 		vrLoc = 0;
@@ -904,7 +1464,7 @@
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 51";
 		rLen = 0;
-		rLoc = 2350;
+		rLoc = 2515;
 		rType = 0;
 		vrLen = 2911;
 		vrLoc = 2;
@@ -914,7 +1474,7 @@
 		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
 		name = "BackupStatusView.py: 42";
 		rLen = 0;
-		rLoc = 1796;
+		rLoc = 2199;
 		rType = 0;
 		vrLen = 1473;
 		vrLoc = 0;
@@ -934,7 +1494,7 @@
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 30";
 		rLen = 0;
-		rLoc = 853;
+		rLoc = 962;
 		rType = 0;
 		vrLen = 2913;
 		vrLoc = 0;
@@ -944,7 +1504,7 @@
 		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
 		name = "UncloudController.py: 70";
 		rLen = 43;
-		rLoc = 3060;
+		rLoc = 3971;
 		rType = 0;
 		vrLen = 3005;
 		vrLoc = 1141;
@@ -953,8 +1513,8 @@
 		isa = PBXTextBookmark;
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 25";
-		rLen = 945;
-		rLoc = 659;
+		rLen = 1006;
+		rLoc = 707;
 		rType = 0;
 		vrLen = 2909;
 		vrLoc = 25;
@@ -966,15 +1526,15 @@
 		rLen = 0;
 		rLoc = 1366;
 		rType = 0;
-		vrLen = 1625;
+		vrLen = 1367;
 		vrLoc = 0;
 	};
 	68CC6BD90F6FA36300DFA898 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 25";
-		rLen = 945;
-		rLoc = 659;
+		rLen = 1006;
+		rLoc = 707;
 		rType = 0;
 		vrLen = 2909;
 		vrLoc = 25;
@@ -984,7 +1544,7 @@
 		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
 		name = "UncloudController.py: 70";
 		rLen = 43;
-		rLoc = 3060;
+		rLoc = 3971;
 		rType = 0;
 		vrLen = 3005;
 		vrLoc = 1141;
@@ -994,7 +1554,7 @@
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 56";
 		rLen = 0;
-		rLoc = 2658;
+		rLoc = 2823;
 		rType = 0;
 		vrLen = 2932;
 		vrLoc = 2;
@@ -1004,7 +1564,7 @@
 		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
 		name = "UncloudController.py: 102";
 		rLen = 0;
-		rLoc = 4234;
+		rLoc = 5145;
 		rType = 0;
 		vrLen = 3049;
 		vrLoc = 1141;
@@ -1016,7 +1576,7 @@
 		rLen = 0;
 		rLoc = 1366;
 		rType = 0;
-		vrLen = 1625;
+		vrLen = 1367;
 		vrLoc = 0;
 	};
 	68CC6BDE0F6FA36300DFA898 /* PBXTextBookmark */ = {
@@ -1024,7 +1584,7 @@
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 56";
 		rLen = 0;
-		rLoc = 2658;
+		rLoc = 2823;
 		rType = 0;
 		vrLen = 2932;
 		vrLoc = 2;
@@ -1036,7 +1596,7 @@
 		rLen = 0;
 		rLoc = 628;
 		rType = 0;
-		vrLen = 1376;
+		vrLen = 1367;
 		vrLoc = 0;
 	};
 	68CC6BE00F6FA36300DFA898 /* PBXTextBookmark */ = {
@@ -1044,7 +1604,7 @@
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 56";
 		rLen = 0;
-		rLoc = 2658;
+		rLoc = 2823;
 		rType = 0;
 		vrLen = 2909;
 		vrLoc = 25;
@@ -1054,7 +1614,7 @@
 		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
 		name = "UncloudController.py: 102";
 		rLen = 0;
-		rLoc = 4234;
+		rLoc = 5145;
 		rType = 0;
 		vrLen = 3049;
 		vrLoc = 1141;
@@ -1064,7 +1624,7 @@
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 56";
 		rLen = 0;
-		rLoc = 2658;
+		rLoc = 2823;
 		rType = 0;
 		vrLen = 2909;
 		vrLoc = 25;
@@ -1076,7 +1636,7 @@
 		rLen = 0;
 		rLoc = 628;
 		rType = 0;
-		vrLen = 1376;
+		vrLen = 1367;
 		vrLoc = 0;
 	};
 	68CC6BE40F6FA36300DFA898 /* PBXTextBookmark */ = {
@@ -1094,7 +1654,7 @@
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 56";
 		rLen = 0;
-		rLoc = 2658;
+		rLoc = 2823;
 		rType = 0;
 		vrLen = 2932;
 		vrLoc = 2;
@@ -1106,7 +1666,7 @@
 		rLen = 0;
 		rLoc = 628;
 		rType = 0;
-		vrLen = 1376;
+		vrLen = 1367;
 		vrLoc = 0;
 	};
 	68CC6BE70F6FA36300DFA898 /* PBXTextBookmark */ = {
@@ -1126,7 +1686,7 @@
 		rLen = 0;
 		rLoc = 628;
 		rType = 0;
-		vrLen = 1376;
+		vrLen = 1367;
 		vrLoc = 0;
 	};
 	68CC6BE90F6FA36300DFA898 /* PBXTextBookmark */ = {
@@ -1134,7 +1694,7 @@
 		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
 		name = "BackupStatusView.py: 25";
 		rLen = 0;
-		rLoc = 635;
+		rLoc = 662;
 		rType = 0;
 		vrLen = 1741;
 		vrLoc = 0;
@@ -1146,7 +1706,7 @@
 		rLen = 0;
 		rLoc = 628;
 		rType = 0;
-		vrLen = 1376;
+		vrLen = 1367;
 		vrLoc = 0;
 	};
 	68CC6BEB0F6FA36300DFA898 /* PBXTextBookmark */ = {
@@ -1154,7 +1714,7 @@
 		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
 		name = "BackupStatusView.py: 25";
 		rLen = 0;
-		rLoc = 635;
+		rLoc = 662;
 		rType = 0;
 		vrLen = 1741;
 		vrLoc = 0;
@@ -1164,7 +1724,7 @@
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 56";
 		rLen = 0;
-		rLoc = 2658;
+		rLoc = 2823;
 		rType = 0;
 		vrLen = 2932;
 		vrLoc = 2;
@@ -1174,7 +1734,7 @@
 		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
 		name = "BackupStatusView.py: 47";
 		rLen = 0;
-		rLoc = 1796;
+		rLoc = 2199;
 		rType = 0;
 		vrLen = 1761;
 		vrLoc = 0;
@@ -1186,7 +1746,7 @@
 		rLen = 0;
 		rLoc = 356;
 		rType = 0;
-		vrLen = 3208;
+		vrLen = 3158;
 		vrLoc = 159;
 	};
 	68CC6BEF0F6FA36300DFA898 /* PBXTextBookmark */ = {
@@ -1194,9 +1754,9 @@
 		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
 		name = "UncloudController.py: 103";
 		rLen = 0;
-		rLoc = 4233;
+		rLoc = 5144;
 		rType = 0;
-		vrLen = 3152;
+		vrLen = 3041;
 		vrLoc = 1193;
 	};
 	68CC6BF00F6FA36300DFA898 /* PBXTextBookmark */ = {
@@ -1206,7 +1766,7 @@
 		rLen = 0;
 		rLoc = 356;
 		rType = 0;
-		vrLen = 3208;
+		vrLen = 3158;
 		vrLoc = 159;
 	};
 	68CC6BF10F6FA36300DFA898 /* PBXTextBookmark */ = {
@@ -1224,9 +1784,9 @@
 		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
 		name = "UncloudController.py: 79";
 		rLen = 0;
-		rLoc = 2664;
+		rLoc = 3337;
 		rType = 0;
-		vrLen = 3149;
+		vrLen = 2900;
 		vrLoc = 1334;
 	};
 	68CC6BF30F6FA36300DFA898 /* PBXTextBookmark */ = {
@@ -1234,7 +1794,7 @@
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 41";
 		rLen = 0;
-		rLoc = 1604;
+		rLoc = 1713;
 		rType = 0;
 		vrLen = 2981;
 		vrLoc = 36;
@@ -1244,9 +1804,9 @@
 		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
 		name = "UncloudController.py: 79";
 		rLen = 0;
-		rLoc = 2664;
+		rLoc = 3337;
 		rType = 0;
-		vrLen = 3071;
+		vrLen = 2821;
 		vrLoc = 1413;
 	};
 	68CC6C050F6FA57D00DFA898 /* PBXTextBookmark */ = {
@@ -1256,7 +1816,7 @@
 		rLen = 0;
 		rLoc = 356;
 		rType = 0;
-		vrLen = 3183;
+		vrLen = 3133;
 		vrLoc = 184;
 	};
 	68CC6C060F6FA57D00DFA898 /* PBXTextBookmark */ = {
@@ -1264,9 +1824,9 @@
 		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
 		name = "UncloudController.py: 78";
 		rLen = 0;
-		rLoc = 2664;
+		rLoc = 3337;
 		rType = 0;
-		vrLen = 3275;
+		vrLen = 3090;
 		vrLoc = 1144;
 	};
 	68CC6C110F6FA60C00DFA898 /* PBXTextBookmark */ = {
@@ -1274,7 +1834,7 @@
 		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
 		name = "BackupStatusView.py: 28";
 		rLen = 0;
-		rLoc = 732;
+		rLoc = 759;
 		rType = 0;
 		vrLen = 1796;
 		vrLoc = 0;
@@ -1284,9 +1844,9 @@
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 49";
 		rLen = 0;
-		rLoc = 1863;
+		rLoc = 1972;
 		rType = 0;
-		vrLen = 3183;
+		vrLen = 3133;
 		vrLoc = 184;
 	};
 	68CC6C1F0F6FAAAE00DFA898 /* PBXTextBookmark */ = {
@@ -1294,9 +1854,9 @@
 		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
 		name = "UncloudController.py: 84";
 		rLen = 0;
-		rLoc = 3103;
+		rLoc = 4014;
 		rType = 0;
-		vrLen = 3075;
+		vrLen = 2748;
 		vrLoc = 1486;
 	};
 	68CC6C200F6FAAAE00DFA898 /* PBXTextBookmark */ = {
@@ -1314,7 +1874,7 @@
 		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
 		name = "BackupStatusView.py: 28";
 		rLen = 0;
-		rLoc = 732;
+		rLoc = 759;
 		rType = 0;
 		vrLen = 1796;
 		vrLoc = 0;
@@ -1344,7 +1904,7 @@
 		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
 		name = "BackupStatusView.py: 28";
 		rLen = 0;
-		rLoc = 732;
+		rLoc = 759;
 		rType = 0;
 		vrLen = 1796;
 		vrLoc = 0;
@@ -1354,7 +1914,7 @@
 		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
 		name = "BackupStatusView.py: 28";
 		rLen = 0;
-		rLoc = 732;
+		rLoc = 759;
 		rType = 0;
 		vrLen = 1796;
 		vrLoc = 0;
@@ -1374,7 +1934,7 @@
 		fRef = 687E40260F6D07F20000DCB8 /* BackupController.py */;
 		name = "BackupController.py: 49";
 		rLen = 0;
-		rLoc = 1863;
+		rLoc = 1972;
 		rType = 0;
 		vrLen = 2971;
 		vrLoc = 0;
@@ -1404,7 +1964,7 @@
 		fRef = 68CC6B890F6F913A00DFA898 /* BackupStatusView.py */;
 		name = "BackupStatusView.py: 28";
 		rLen = 0;
-		rLoc = 732;
+		rLoc = 759;
 		rType = 0;
 		vrLen = 1796;
 		vrLoc = 0;
@@ -1444,7 +2004,7 @@
 		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
 		name = "UncloudController.py: 60";
 		rLen = 0;
-		rLoc = 2039;
+		rLoc = 2498;
 		rType = 0;
 		vrLen = 2200;
 		vrLoc = 0;
@@ -1541,7 +2101,7 @@
 		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
 		name = "UncloudController.py: 64";
 		rLen = 0;
-		rLoc = 2199;
+		rLoc = 2658;
 		rType = 0;
 		vrLen = 3227;
 		vrLoc = 1007;
@@ -1561,7 +2121,7 @@
 		fRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */;
 		name = "UncloudController.py: 64";
 		rLen = 0;
-		rLoc = 2199;
+		rLoc = 2658;
 		rType = 0;
 		vrLen = 3227;
 		vrLoc = 1007;
@@ -1595,5 +2155,12 @@
 		executables = (
 			687E3EB80F6BF9B70000DCB8 /* Uncloud */,
 		);
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {948, 870}}";
+			sepNavSelRange = "{883, 0}";
+			sepNavVisRect = "{{0, 0}, {948, 870}}";
+		};
 	};
 }
