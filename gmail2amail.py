@@ -5,7 +5,8 @@ Copyright (c) 2009 Harish Mallipeddi
 Utilities to fetch emails from a GMail folder via IMAP and archive into a MBox file
 """
 
-import imaplib, re, os
+import myimaplib as imaplib
+import re, os
 
 LABELS_TO_IGNORE = ["[Gmail]"]
 DEFAULT_LABELS = [

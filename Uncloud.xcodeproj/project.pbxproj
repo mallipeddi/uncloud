@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		684D117A0F7A63E100D4B6A7 /* myimaplib.py in Resources */ = {isa = PBXBuildFile; fileRef = 684D11790F7A63E100D4B6A7 /* myimaplib.py */; };
 		687E3EC80F6C022A0000DCB8 /* gmail2amail.py in Resources */ = {isa = PBXBuildFile; fileRef = 687E3EC70F6C022A0000DCB8 /* gmail2amail.py */; };
 		687E3EEB0F6C03C90000DCB8 /* UncloudController.py in Resources */ = {isa = PBXBuildFile; fileRef = 687E3EEA0F6C03C90000DCB8 /* UncloudController.py */; };
 		687E3F520F6CA3410000DCB8 /* BackgroundTasks.py in Resources */ = {isa = PBXBuildFile; fileRef = 687E3F510F6CA3410000DCB8 /* BackgroundTasks.py */; };
@@ -31,6 +32,7 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* Uncloud_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Uncloud_Prefix.pch; sourceTree = "<group>"; };
+		684D11790F7A63E100D4B6A7 /* myimaplib.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = myimaplib.py; sourceTree = "<group>"; };
 		687E3EC70F6C022A0000DCB8 /* gmail2amail.py */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = text.script.python; path = gmail2amail.py; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
 		687E3EEA0F6C03C90000DCB8 /* UncloudController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = UncloudController.py; sourceTree = "<group>"; };
 		687E3F510F6CA3410000DCB8 /* BackgroundTasks.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = BackgroundTasks.py; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				684D11790F7A63E100D4B6A7 /* myimaplib.py */,
 				32CA4F630368D1EE00C91783 /* Uncloud_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 				77631A3E0C0748CF005415CB /* main.py */,
@@ -198,6 +201,7 @@
 				687E40A50F6D1E020000DCB8 /* BackupStatus.xib in Resources */,
 				687E429A0F6D80AB0000DCB8 /* FlippedView.py in Resources */,
 				68CC6B8A0F6F913A00DFA898 /* BackupStatusView.py in Resources */,
+				684D117A0F7A63E100D4B6A7 /* myimaplib.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
