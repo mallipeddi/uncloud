@@ -19,6 +19,8 @@ class BackupStatusView(NSView):
             self.enableDnD = False
         return self
 
+    # drag-n-drop support
+
     def prepareForDnD(self, backupFilePath):
         self.enableDnD = True
         self.backupFilePath = backupFilePath
@@ -45,3 +47,15 @@ class BackupStatusView(NSView):
         NSLog(u"DnD operation (%@) performed successfully", operationPerformed)
         self.setValue_forKey_(True, u"performedDnd")
         self.removeFromSuperview()
+    
+    # custom background-fills
+    
+    def drawWithWidth_fillColor_(self, fWidth, fillColor):
+        self.setFrameSize_(NSSize(fWidth, self.frame().size.height))
+        self.fillColor = fillColor
+        self.setNeedsDisplay_(True)
+    
+    def drawRect_(self, rect):
+        if self.fillColor:
+            self.fillColor.set()
+            NSBezierPath.fillRect_(rect)

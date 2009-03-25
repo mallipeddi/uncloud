@@ -41,14 +41,19 @@ class UncloudController(NSObject):
         self.loginStatusLabel.setHidden_(True)
         self.loginProgressIndicator.setHidden_(True)
 
-        app = NSApplication.sharedApplication()
-        app.beginSheet_modalForWindow_modalDelegate_didEndSelector_contextInfo_(self.loginSheet, self.mainWindow, None, None, None)
-        
-        self.backupsView = FV.alloc().initWithFrame_(NSMakeRect(0, 0, 510, 0))
-        # set a Flipped NSView as the document view for the NSScrollView
-        # in order to position the document view at the top-left corner
+        # create and set the content view for the scroll view
+        # this content view is a flipped view which contains multiple BackupStatusViews (one-per-backup-initiated).
+        scrollFrameSize = self.backupsScrollView.frame().size
+        contentFrameSize = NSScrollView.contentSizeForFrameSize_hasHorizontalScroller_hasVerticalScroller_borderType_(
+                                            scrollFrameSize, False, True, NSBezelBorder)
+        self.backupsView = FV.alloc().initWithFrame_(NSMakeRect(0, 0, contentFrameSize.width, 0))
         self.backupsScrollView.setDocumentView_(self.backupsView)
         self.backupsScrollView.setHasVerticalScroller_(True)
+        self.backupsScrollView.setBorderType_(NSBezelBorder)
+        self.backupsScrollView.setBackgroundColor_(NSColor.windowBackgroundColor())
+
+        app = NSApplication.sharedApplication()
+        app.beginSheet_modalForWindow_modalDelegate_didEndSelector_contextInfo_(self.loginSheet, self.mainWindow, None, None, None)
     
     @objc.IBAction
     def doLogin_(self, sender):
@@ -74,11 +79,15 @@ class UncloudController(NSObject):
         if self.selectedLabel:
             backupController = BC.alloc().initWith_(self.account, self.selectedLabel)
             self.backups.addObject_(backupController)
+            backupsCount = self.backups.count()
 
             aView = backupController.view()
             height = aView.frame().size.height        
             oldWidth = self.backupsView.frame().size.width
-            self.backupsView.setFrameSize_(NSSize(oldWidth, height * self.backups.count()))
+            altColors = NSColor.controlAlternatingRowBackgroundColors()
+            aView.drawWithWidth_fillColor_(oldWidth, altColors.objectAtIndex_(backupsCount % altColors.count()))
+            
+            self.backupsView.setFrameSize_(NSSize(oldWidth, height * backupsCount))
             self.backupsView.addSubview_(aView)
 
     def observeValueForKeyPath_ofObject_change_context_(self, keyPath, object, change, context):

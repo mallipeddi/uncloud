@@ -80,7 +80,7 @@
 						<double key="NSMaxValue">1.000000e+02</double>
 					</object>
 				</object>
-				<string key="NSFrameSize">{508, 72}</string>
+				<string key="NSFrameSize">{511, 72}</string>
 				<reference key="NSSuperview"/>
 				<string key="NSClassName">BackupStatusView</string>
 			</object>
@@ -229,7 +229,7 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilderKit</string>
 					<string>com.apple.InterfaceBuilderKit</string>
-					<string>{{121, 222}, {508, 72}}</string>
+					<string>{{121, 222}, {511, 72}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
